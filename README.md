@@ -14,7 +14,7 @@ Description: Write a program that will determine the type of a triangle. It shou
 
 - I wrote the first 3 tests and made them pass. This also checks if my environment is set up and running correctly. The basic idea is that if a triangle's all 3 sides are the same size, then it is an equilateral triangle, if 2 sides are the same size, then it is an isosceles triangle, otherwise its a scalene triangle.
 
-- After this I started thinking of error cases, created the tests for them and made them pass. The function shouldn't return with a valid answer if:
+- After this I started thinking of error cases, created the tests for them and made them pass. The function should raise an error if:
     - there is less than 3 arguments provided
     - at least one of the arguments are 0 or negative
     - at least one of the arguments are not numbers
