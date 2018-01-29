@@ -1,0 +1,11 @@
+{
+  "name": "triangle-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "triangle.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "katkelemen",
+  "license": "ISC"
+}
